@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/wec7wgp.css">
+  <link rel="JavaScript" href="javascript.js">
+  <title>The Tortoise and the Hare</title>
+  <div class="Title">
+    <center><img src="Assets/Title.svg" alt="" width="50%"></center>
+  </div>
+</head>
+
+<body>
+
+  <!--BEGINNING OF SCRIPT. DO NOT DELETE.-->
+  <script type="text/javascript" language="JavaScript">
+    function HideContent(d) {
+      document.getElementById(d).style.display = "none";
+    }
+
+    function ShowContent(d) {
+      document.getElementById(d).style.display = "block";
+    }
+
+    function ReverseDisplay(d) {
+      if (document.getElementById(d).style.display == "none") {
+        document.getElementById(d).style.display = "block";
+      } else {
+        document.getElementById(d).style.display = "none";
+      }
+    }
+  </script>
+  <!--END OF SCRIPT. DO NOT DELETE.-->
+
+  <a href="javascript:ReverseDisplay('Level 1')">
+    <center>BEGIN</center>
+  </a>
+  <div id="Level 1" class="Level_1" style="display: none;">
+    <p>Choose your character:</p>
+    <span class="Button"><a href="javascript:ReverseDisplay('Level 2H')">HARE</a></span>
+    <span class="Button"><a href="javascript:ReverseDisplay('Level 2T')">TORTOISE</a></span>
+    <div id="Level 2H" class="Level" style="display: none;">
+      <h3>Hare</h3>
+      <span class="Button"><a href="javascript:ReverseDisplay('Level 3Co')">COCKY</a></span>
+      <span class="Button"><a href="javascript:ReverseDisplay('Level 3R')">REASONABLE</a></span>
+      <div id="Level 3Co" class="Level" style="display: none;">
+        <h3>Cocky</h3>
+        <p>In a wooded forest lived a Hare. With great leaps and bounds, he could get anywhere in the forest in seconds.
+          All of the other woodland creatures admired his great speed.</p>
+        <p>"I'm the fastest animal around!" he thought to himself. "I rock!"</p>
+        <p>Along came a Tortoise. He looked at the Hare and said, "you're pretty fast, but I reckon I could beat you
+          in a race!"</p>
+        <p>The Hare laughed. "You? Beat me?" he asked incredulously.</p>
+        <p>"So, are you in or not?" asked the Tortoise.</p>
+        <span class="Button"><a href="javascript:ReverseDisplay('Level 4Accept')">ACCEPT</a></span>
+        <span class="Button"><a href="javascript:ReverseDisplay('Level 4Deny')">DECLINE</a></span>
+        <div id="Level 4Accept" class="Level" style="display: none;">
+          <h3>Accept</h3>
+          <center><img src="Assets/placeholder.jpg" alt="" width="100%"></center>
+          <p>The Hare accepts the challenge.</p>
+          <p>The other woodland creatures have all gathered to watch the day's events unfold.
+            A path was chosen, and a finish line drawn. The Hare and Tortoise lined up at the start line.</p>
+          <p>"Good luck," said the Hare, disingenuously. "You'll need it," he added.</p>
+          <p>BANG! The starting pistol went off, and the racers were off. In seconds, the Hare had left the Tortoise in the dust. Now out of sight of the Tortoise, the Hare contemplated
+            to mock the Tortoise further, and take a nap.</p>
+          <span class="Button"><a href="javascript:ReverseDisplay('Level 5Nap')">NAP</a></span>
+          <span class="Button"><a href="javascript:ReverseDisplay('Level 5Keep going')">KEEP GOING</a></span>
+          <div id="Level 5Nap" class="Level" style="display: none;">
+            <h3>Nap</h3>
+            <p>The Hare found a shady area beside a tree, and settled in for a nap. Meanwhile, the Tortoise was making progress. He passed the sleeping Hare, and made his way to the finish line.
+              Awaiting were the spectating denizens of the woodlands. They cheered the turtle on. This racket caused the Hare to wake up. Shocked, he hopped the remained of the race as quickly
+              as his feet would take him. It was too litte, too late.</p>
+            <p>If only the Hare had been less cocky, and continued the race without napping, he would have won. That way, he could have beat someone who was... at a clear disadvantage?
+              Wait a minute that's kind of f***ed up.</p>
+            <a href="index.html">
+              <center>START OVER</center>
+            </a>
+          </div>
+          <div id="Level 5Keep going" class="Level" style="display: none;">
+            <h3>Keep going</h3>
+            <p>The Hare decided against it, and kept going. In no time, he had crossed the finish line. The spectating denizens of the woodlands cheered him on. Finally, the Hare was
+              able to prove to everybody that he could beat someone who... was at a clear disadvantage?</p>
+            <p>Wait a minute that's kind of f***ed up.</p>
+            <a href="index.html">
+              <center>START OVER</center>
+            </a>
+          </div>
+        </div>
+        <div id="Level 4Deny" class="Level" style="display: none;">
+          <h3>Decline</h3>
+          <p>The Hare scoffs. "Of course not! I'm not gonna waste my time with that."</p>
+          <p>"Geez, you ain't gotta be such a dick about it," said the Tortoise as he walked away.</p>
+          <p>The Hare could certainly stand to learn how to be nice.</p>
+          <a href="index.html">
+            <center>START OVER</center>
+          </a>
+        </div>
+      </div>
+      <div id="Level 3R" class="Level" style="display: none;">
+        <h3>Reasonable</h3>
+        <p>In a wooded forest lived a Hare. With great leaps and bounds, he could get anywhere in the forest in seconds.
+          All of the other woodland creatures admired his great speed.</p>
+        <p>Along came a Tortoise. He looked at the Hare and said, "you're pretty fast, but I reckon I could beat you
+          in a race!"</p>
+        <p>The Hare chuckled. "Sorry man, I'm just not the biggest fan of racing. Besides, what would we even gain from competing like that?"</p>
+        <p>"Fair point," replied the Tortoise, "well, in that case, some friends and I are gonna hit up a bar later on. You're welcome to join!"</p>
+        <span class="Button"><a href="javascript:ReverseDisplay('Level 4Y')">ACCEPT</a></span>
+        <span class="Button"><a href="javascript:ReverseDisplay('Level 4N')">DECLINE</a></span>
+        <div id="Level 4Y" class="Level" style="display: none;">
+          <h3>Accept</h3>
+          <center><img src="Assets/bar.jpg" alt="" width="100%"></center>
+          <p>The Hare accepts the Tortoise's invitation.</p>
+          <p>A few hours latter, a nervous, but quite dapper Hare hops nervously into the bar. The Tortoise sees him from across the room, and smiles.</p>
+          <p>"Hey, you made it!" the Tortoise exclaims.</p>
+          <p>The Hare smiles back, and hops over. The two hit it off really well. They spend all night talking to each other, even past the Tortoise's
+            friends leaving, and even past last call. Realizing the time, the Hare decides it's time to leave.</p>
+          <p>"We should do this again sometime," he says. The Tortoise agrees.</p>
+          <p>And they do.</p>
+          <p>They stard dating, fall in love, move in together, get married, and live</p>
+          <p>happily</p>
+          <p>ever</p>
+          <p>after...</p>
+          <a href="index.html">
+            <center>START OVER</center>
+          </a>
+        </div>
+        <div id="Level 4N" class="Level" style="display: none;">
+          <h3>Decline</h3>
+          <p>"Ah, I would love to," said the Hare, "but I'm visiting my parents today."</p>
+          <p>"No worries," replied the Tortoise, "maybe some other time."</p>
+          <p>A year later, it's a big day for the woodlands. The animals have decided to hold a referendum on same-sex marriage.</p>
+          <p>The Hare heads out to vote.</p>
+          <span class="Button"><a href="javascript:ReverseDisplay('Level 5Y')">VOTE YES</a></span>
+          <span class="Button"><a href="javascript:ReverseDisplay('Level 5N')">VOTE NO</a></span>
+          <div id="Level 5Y" class="Level" style="display: none;">
+            <h3>Vote 'YES'</h3>
+            <p>The Hare lines up outside the polling place, exercising his civic duty. We walks in, fills in the 'YES' bubble on his ballot, and
+              submits it. On his way out, he runs into the Tortoise.</p>
+            <p>"Oh hey!" the Hare exclaims, "long time, no see!"</p>
+            <p>"That's right! How have you been?" asks the Tortoise.</p>
+            <p>"You know, working, hanging out. Nothing amazing." And then the Hare remembers the Tortoise inviting him out a year ago. "Say,
+              there's a really nice café near here, wanna grab a cup of coffee?"</p>
+            <p>"I'd love that," the Tortoise replies.</p>
+            <p>And they walk off, on their first of many dates.</p>
+            <a href="index.html">
+              <center>START OVER</center>
+            </a>
+          </div>
+          <div id="Level 5N" class="Level" style="display: none;">
+            <h3>Vote 'NO'</h3>
+            <p>Haha! You really think I'd let you do that? F**k you. They're both gay, they vote yes, start dating, and get married.</p>
+            <p>Deal with it.</p>
+            <a href="index.html">
+              <center>START OVER</center>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Level 2T" class="Level" style="display: none;">
+      <h3>Tortoise</h3>
+      <span class="Button"><a href="javascript:ReverseDisplay('Level 3Ch')">CHILL</a></span>
+      <span class="Button"><a href="javascript:ReverseDisplay('Level 3J')">A JERK</a></span>
+      <div id="Level 3Ch" class="Level" style="display: none;">
+        <h3>Chill</h3>
+        <p>In a wooded forest lived a Tortoise. He wasn't the fastest animal in the forest, but he was certainly the nicest.
+          One day, a Hare approached him, with an interesting proposal.</p>
+        <p>"How about this," the Hare began, "you, me, a race. What do you think?"</p>
+        <p>The Tortoise, knowing that he is much slower than the Hare thinks this question over.</p>
+        <span class="Button"><a href="javascript:ReverseDisplay('Level 4TortAccept')">ACCEPT</a></span>
+        <span class="Button"><a href="javascript:ReverseDisplay('Level 4TortDecline')">DECLINE</a></span>
+        <div id="Level 4TortAccept" class="Level" style="display: none;">
+          <h3>Accept</h3>
+          <center><img src="Assets/placeholder.jpg" alt="" width="100%"></center>
+          <p>After some deliberation, the Tortoise accepts the challenge.</p>
+          <p>The other woodland creatures have all gathered to watch the day's events unfold.
+            A path was chosen, and a finish line drawn. The Hare and Tortoise lined up at the start line.</p>
+          <p>"Good luck," said the Hare, "may the best man win," he added.</p>
+          <p>BANG! The starting pistol went off, and the racers were off. In seconds, the Hare had left the Tortoise in the dust. Now out of sight of the Tortoise, the Hare contemplated
+            taking a nap, and so he did.</p>
+          <p>The Tortoise passes by the Hare, and notices him dozed off. He ponders waking him up.</p>
+          <span class="Button"><a href="javascript:ReverseDisplay('Level 5Wake')">WAKE HIM</a></span>
+          <span class="Button"><a href="javascript:ReverseDisplay('Level 5Keep')">LEAVE HIM</a></span>
+          <div id="Level 5Wake" class="Level" style="display: none;">
+            <h3>Wake him</h3>
+            <p>The Tortoise feels that it would be unfair to leave the Hare sleeping, and take credit for the win.
+              He walks over to him, and taps the Hare on the shoulder. The Hare jolts awake.</p>
+            <p>"Whoa, what happened?" asked the Hare, disoriented.</p>
+            <p>"Dude, you fell asleep... Everything good?" responded the Tortoise.</p>
+            <p>"Yeah, I'm good. Hey, thanks for waking me up. This whole race thing is kind of dumb anyway. You wanna just finish the race together?"</p>
+            <p>The Tortoise agrees. They walk across the finish line together, to cheers from the spectators.
+              To celebrate their newfound friendship, they host a huge party, with beer pong and Mario Kart.</p>
+            <p>It's a lit time.</p>
+            <a href="index.html">
+              <center>START OVER</center>
+            </a>
+          </div>
+          <div id="Level 5Keep" class="Level" style="display: none;">
+            <h3>Leave him</h3>
+            <p>The Tortoise decides to keep going, and crosses the finish line by himself, to massive cheers from the spectators.
+              However, this win is not legitimate, and the Tortoise soon comes clean about passing by the sleeping Hare. An intrigued crowd follows
+              the Tortoise over to the Hare. Through stifled giggling, one of the spectators produces a Sharpie, and begins drawing a moustache on the Hare's upper lip.
+              the Hare jolts awake. One of the spectators holds a mirror up to the Hare.</p>
+            <p>The Hare looks at his own reflection and says, "You know what? I look good in a moustache."</p>
+            <p>The crowd laughs. To celebrate their newfound friendship, they host a huge party, with beer pong and Mario Kart.</p>
+            <p>It's a lit time.</p>
+            <a href="index.html">
+              <center>START OVER</center>
+            </a>
+          </div>
+        </div>
+        <div id="Level 4TortDecline" class="Level" style="display: none;">
+          <h3>Decline</h3>
+          <p>After some deliberation, the Tortoise declines the offer.</p>
+          <p>"It just wouldn't make much sense," the Tortoise began, "I mean, you're clearly much faster than me."</p>
+          <p>"That's fair," replied the Hare, "in that case, wanna come over to my place and watch <i>The Bachelor</i>?"</p>
+          <p>The Tortoise accepts. They sure do make a lot of virgin jokes on that show, don't they?</p>
+          <a href="index.html">
+            <center>START OVER</center>
+          </a>
+        </div>
+      </div>
+      <div id="Level 3J" class="Level" style="display: none;">
+        <h3>A jerk</h3>
+        <p><i>Inspired by the Lord Dunsany's Interpretation</i></p>
+        <p>In a wooded forst lived a Tortoise. He certainly wasn't the fastest creature in the woods, but he behaved as though he was.
+          One day, he comes across a Hare. The Tortoise approaches him, and says:</p>
+        <p>"You know, I bet I could kick your ass in a race!"</p>
+        <p>Perplexed, the Hare asks, "how so?"</p>
+        <p>"You'll just have to try me and see."</p>
+        <p>Reluctantly, the Hare agrees to the challenge, as ridiculous as he thinks it is.
+          The other woodland creatures have all gathered to watch the day's events unfold.
+          A path was chosen, and a finish line drawn. The Hare and Tortoise lined up at the start line.</p>
+        <p>"Good luck," said the Tortoise, disingenuously, "you'll need it," he added.</p>
+        <p>BANG! The starting pistol went off, and the racers were off. In seconds, the Hare had left the Tortoise in the dust.</p>
+        <p>"This is freaking ridiculous," said the Hare to himself, "what a waste of time."</p>
+        <p>Exasperated, and unwilling to continue any further, the Hare stops and exists the track. Meanwhile, the Tortoise is still racing. He eventually reaches the finish line.
+          Convinced by his superiourity over the Hare, the spectating crowd erupts in cheers. The Tortoise was the fastest creature in the forest.</p>
+        <p>Now the reason that you may have never heard of this version of the race, is that very few witnesses survived the massive forest fire that began shortly thereafter.
+          The Tortoise, the Hare, and the spectators had noticed it approaching quickly. Frantically, the animals got together to pick a quick messenger to warn all the other denizens
+          of the woodlands.</p>
+        <p>They sent the Tortoise.</p>
+        <a href="index.html">
+          <center>START OVER</center>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
